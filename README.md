@@ -3,7 +3,7 @@
 EndoMAE is a masked autoencoder framework for representation learning in endoscopic images.
 
 <p align="center">
-  <img src="images/mae-endo.jpg" width="600">
+  <img src="info/mae-endo.jpg" width="600">
 </p>
 
 ### Will be updated after paper is published.
