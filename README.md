@@ -12,7 +12,7 @@ Large vision models (LVMs) pretrained on massive visual datasets have demonstrat
 - [🔗 DOI](https://doi.org/10.1117/12.3087375)
 
 ## Poster
-[Download the poster (PDF)](poster/poster.pdf)
+[Poster (PDF)](poster/poster.pdf)
 
 <p align="center">
   <img src="poster/poster_preview.jpg" width="900">
