@@ -1,17 +1,14 @@
 # EndoMAE: A Foundation Model for Endoscopic Image Analysis via Self-Supervised Learning
 
-**Dipika Boro**, Qilei Chen, Xiaolong Liang, Yu Cao, Benyuan Liu
-
-*Proc. SPIE 13926, Medical Imaging 2026: Computer-Aided Diagnosis, 2026*
-
 Published in *Medical Imaging 2026: Computer-Aided Diagnosis (Proc. SPIE 13926)*, April 2026
 
 ## Abstract
 Large vision models (LVMs) pretrained on massive visual datasets have demonstrated strong transferability across downstream tasks such as classification, detection, and segmentation. This transferability makes them particularly effective in low-labeled data settings where representation learning from unlabeled data has emerged as a promising alternative to fully supervised approaches. In this work, we introduce EndoMAE, a self-supervised foundation model for endoscopic image analysis based on masked autoencoding. For pretraining, we curate a large-scale, high-quality dataset by automatically filtering and processing raw endoscopic video frames to retain only anatomically relevant regions and remove low-quality samples. This process yields 6.5 million endoscopic images, which are combined with publicly available data to form a corpus of over 10 million images for self-supervised pretraining. EndoMAE is trained to reconstruct masked image patches, encouraging the learning of rich, domain-specific representations without manual annotations or prompt engineering. We evaluate EndoMAE on endoscopic benchmarks that are fully disjoint from the pretraining datasets for image classification and polyp segmentation as downstream tasks. We compare EndoMAE with both supervised and self-supervised pretrained feature extractors. Compared to self-supervised baselines, EndoMAE achieves gains of up to 5.2\% F1 and 10.2\% dice score across the respective tasks, demonstrating strong cross-dataset generalization and task adaptability in low-annotation endoscopic imaging settings.
 
 ## Paper
+ 
+- [📄 SPIE page](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13926/139262H/EndoMAE--a-foundation-model-for-endoscopic-image-analysis-via/10.1117/12.3087375.short)
 
-- [📄 SPIE page](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13926/139262H/EndoMAE--a-foundation-model-for-endoscopic-image-analysis-via/10.1117/12.3087375)
 - [🔗 DOI](https://doi.org/10.1117/12.3087375)
 
 ## Poster
